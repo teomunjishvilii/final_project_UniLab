@@ -1,6 +1,27 @@
-@media (max-width: 1050px) {
+@media (max-width: 1115px) {
+    .blocks_section {
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        padding-top: 40px;
+    }
+
+    .block:nth-child(3), .block:nth-child(4) {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 1050px) {    
     .container{
         max-width: 850px;
+    }
+
+    .blocks_section {
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+        flex-wrap: wrap;
     }
 }
 
@@ -31,6 +52,17 @@
     .burger_button {
         display: block;
     }
+
+    .blocks_section {
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .block:nth-child(2) {
+        margin-top: 40px;
+    }
+
 
     /* Clicking on the burger button */
     .navigation.active {
