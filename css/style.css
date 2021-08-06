@@ -8,7 +8,7 @@ header {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
@@ -26,7 +26,7 @@ header {
 }
 
 .navigation ul li:nth-child(1) {
-    width: 100px;
+    width: 12%;
     height: 100px;
     background-color: #ff3a52;
     color: #fff;
@@ -38,7 +38,7 @@ header {
 }
 
 .navigation ul li {
-    width: 220px;
+    width: 22%;
     height: 100px;
     background-color: #31353d;
     display: flex;
@@ -64,5 +64,152 @@ header {
     top: 100px;
     right: 55px;
     display: none;
+}
+
+/* Section 2 - Slider */
+.slider {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.slider_item {
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 600px;
+    position: relative;
+}
+
+.slider_item img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+.slider_item h3 {
+    font-size: 140px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slider_icon {
+    font-size: 80px;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slider_item:nth-child(1) {
+    background-image: url(../images/slider-image1.jpg);
+}
+
+.slider_item:nth-child(2) {
+    background-image: url(../images/slider-image2.jpg);
+}
+
+.slider_item:nth-child(3) {
+    background-image: url(../images/slider-image3.jpg);
+}
+
+/* Section 2 - Blocks */
+.blocks {
+    background-color: #ecebe9;
+    margin-top: -30px;
+    padding-bottom: 70px;
+}
+
+.blocks_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    background-color: #fff;
+    width: 270px;
+}
+
+.block img {
+    width: 100%;
+}
+
+.block_icon {
+    font-size: 55px;
+    color: #31353d;
+}
+
+.block_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 240px;
+    margin: 0 auto;
+    padding: 25px;
+    padding-bottom: 30px;
+}
+
+.block h4 {
+    color: #474747;
+    font-size: 30px;
+}
+
+.block p {
+    color: #bfbfbd;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #ff3a52;
+}
+
+.date p {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.grey_triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 50px 0 0;
+    border-color: #ecebe9 transparent transparent transparent;
+    position: relative;
+}
+
+.red_triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 50px 50px;
+    border-color: transparent transparent #ff3a51 transparent;
+    position: absolute;
+}
+
+.red_triangle:hover {
+    border-color: transparent transparent #32363e transparent;
+}
+
+
+
+.plus_icon {
+    color: #fff;
+    font-size: 18px;
+    margin-left: -22px;
+    margin-top: 25px;
+}
+
+.square_div {
+    display: flex;
+    justify-content: flex-end;
 }
 
