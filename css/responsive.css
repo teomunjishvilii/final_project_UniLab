@@ -86,3 +86,27 @@
         font-size: 18px;
     }
 }
+
+@media (max-width: 590px) {
+    .slider_item h3 {
+        font-size: 120px;
+    }
+}
+
+@media (max-width: 500px) {
+    .blocks_section {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 490px) {
+    .slider_item h3 {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 400px) {
+    .slider_item h3 {
+        font-size: 80px;
+    }
+}

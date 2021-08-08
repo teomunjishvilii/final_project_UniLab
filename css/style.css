@@ -104,15 +104,15 @@ header {
     transform: translateX(-50%);
 }
 
-.slider_item:nth-child(1) {
-    background-image: url(../images/slider-image1.jpg);
+.slide1 {
+    background-image: url(../images/slider-image1.jpeg);
 }
 
-.slider_item:nth-child(2) {
+.slide2 {
     background-image: url(../images/slider-image2.jpg);
 }
 
-.slider_item:nth-child(3) {
+.slide3 {
     background-image: url(../images/slider-image3.jpg);
 }
 
@@ -120,12 +120,15 @@ header {
 .blocks {
     background-color: #ecebe9;
     margin-top: -30px;
-    padding-bottom: 70px;
 }
 
 .blocks_section {
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    margin-top: -135px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .block {
@@ -210,4 +213,3 @@ header {
     display: flex;
     justify-content: flex-end;
 }
-

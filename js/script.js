@@ -6,12 +6,13 @@ burgerButton.addEventListener ('click', function () {
     nav.classList.toggle('active');
 });
 
-//Slider
+// Slider
 $ (document).ready(function() {
     $('.slider').slick ({
+        infinite: true,
         dots: true,
         arrows: true,
         autoplay: true,
-        autoplaySpeed: 1000
+        autoplaySpeed: 2000
     });
 });
