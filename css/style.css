@@ -55,6 +55,7 @@ header {
 .navigation ul li a {
     color: #fff;
     font-size: 18px;
+    font-family: "BPG Nino Mtavruli", sans-serif;
 }
 
 .burger_button {
@@ -118,8 +119,9 @@ header {
 
 /* Section 2 - Blocks */
 .blocks {
-    background-color: #ecebe9;
     margin-top: -30px;
+    background-color: #f6f6f6;
+    height: 100%;
 }
 
 .blocks_section {
@@ -132,8 +134,8 @@ header {
 }
 
 .block {
-    background-color: #fff;
     width: 270px;
+    background-color: #fff;
 }
 
 .block img {
@@ -213,3 +215,120 @@ header {
     display: flex;
     justify-content: flex-end;
 }
+
+.more_blocks {
+    padding-top: 500px;
+    padding-bottom: 200px;
+    text-align: center;
+
+}
+
+.more_blocks a {
+    color: #474747;
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px dotted #474747;
+    padding: 15px 20px;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+}
+
+.more_blocks a:hover {
+    color: #ff3a51;
+    border: 5px dotted #ff3a51;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 17px 22px;
+    transition: all 0.2s linear;
+}
+
+/* Footer */
+footer {
+    background-color: #31353d;
+}
+
+.footer_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+}
+
+.footer_logo::after {
+    content: "|";
+    color: red;
+    margin: 0px 50px;
+    font-size: 27px;
+}
+
+.footer_navigation ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer_navigation ul::after {
+    content: "|";
+    color: #d13b53;
+    margin: 0px 50px;
+    font-size: 27px;
+}
+
+.footer_navigation ul li a {
+    color: #545b68;
+    margin: 20px;
+    font-size: 18px;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    transition: all 0.2s linear;
+}
+
+.footer_navigation ul li a:hover {
+    color: #d13b53;
+    font-size: 19px;
+}
+
+.soc_media {
+    display: flex;
+}
+
+.soc_media_icon {
+    color: #fff;
+    margin: 5px;
+    font-size: 20px;
+    background-color: #545b68;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-top: 6px;
+    transition: all 0.2s linear;
+}
+
+.soc_media_icon:hover {
+    background-color: #d13b53;
+}
+
+.fancy_border {
+    display: flex;
+    justify-content: center;
+}
+
+.website_policy {
+    width: 500px;
+    height: 120px;
+    background-color: #545b68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100% 0% 54% 46% / 30% 30% 70% 70%;
+    margin-bottom: 30px;
+}
+
+.website_policy a {
+    color: #31353d;
+    margin: 20px 30px;
+}
+
+.website_policy a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
