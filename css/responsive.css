@@ -1,14 +1,34 @@
 @media (max-width: 1115px) {
-    .blocks_section {
-        max-width: 700px;
-        width: 100%;
-        margin: 0 auto;
-        flex-wrap: wrap;
-        padding-top: 40px;
+    .block {
+        width: 220px;
     }
 
-    .block:nth-child(3), .block:nth-child(4) {
-        margin-top: 40px;
+    .block_text {
+        width: 200px;
+    }
+
+    .blocks_section {
+        justify-content: space-around;
+    }
+
+    .more_blocks {
+        padding-top: 530px;
+    }
+
+    .footer_info {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer_navigation ul li a {
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    .soc_media_icon {
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
     }
 }
 
@@ -17,11 +37,13 @@
         max-width: 850px;
     }
 
-    .blocks_section {
-        max-width: 700px;
-        width: 100%;
-        margin: 0 auto;
-        flex-wrap: wrap;
+    .block {
+        width: 200px;
+    }
+
+    .footer_navigation ul li a {
+        font-size: 11px;
+        margin: 7px;
     }
 }
 
@@ -30,6 +52,30 @@
         max-width: 680px;
     }
 
+    .block {
+        width: 160px;
+    }
+
+    .block_icon {
+        font-size: 35px;
+    }
+
+    .date {
+        padding: 25px;
+    }
+
+    .block_text {
+        width: 155px;
+    }
+
+    .block h4 {
+        font-size: 23px;
+    }
+
+    .block p {
+        font-size: 19px;
+    }
+    
     .navigation ul li {
         width: 200px;
         height: 100px;
@@ -42,6 +88,44 @@
     .navigation ul li:nth-child(1) a{
         font-size: 22px;
     }
+
+    .footer_info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer_logo {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .footer_navigation ul {
+        flex-direction: column;
+    }
+
+    .footer_navigation ul li {
+        margin: 10px;
+    }
+
+    .footer_navigation ul li a {
+        font-size: 18px;
+    }
+
+    .footer_logo::after, .footer_navigation ul::after {
+        color: transparent;
+    }
+
+    .fancy_border {
+        padding-left: 270px;
+        margin-top: -70px;
+        padding-bottom: 50px;
+    }
+
+    .website_policy {
+        flex-direction: column;
+        width: 380px;
+        height: 170px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -53,17 +137,47 @@
         display: block;
     }
 
+    .blocks {
+        height: 2600px;
+    }
+
     .blocks_section {
         max-width: 300px;
         width: 100%;
-        margin: 0 auto;
+        flex-direction: column;
+        margin-top: 50px;
     }
 
-    .block:nth-child(2) {
-        margin-top: 40px;
+    .block {
+        width: 270px;
+        margin: 30px;
     }
-
-
+        
+    .block_icon {
+        font-size: 55px;
+    }
+    
+    .block_text {
+        width: 240px;
+    }
+    
+    .block h4 {
+        font-size: 30px;
+    }
+    
+    .block p {
+        font-size: 20px;
+    }
+    
+    .date {
+        padding: 40px;
+    }
+    
+    .date p {
+        margin-left: 20px;
+        font-size: 25px;
+    }
+    
     /* Clicking on the burger button */
     .navigation.active {
         display: block;
@@ -87,10 +201,31 @@
     }
 }
 
+@media (max-width: 680px) {
+    .website_policy {
+        width: 300px;
+    }
+}
+
 @media (max-width: 590px) {
     .slider_item h3 {
         font-size: 120px;
     }
+
+    .website_policy {
+        width: 250px;
+    }
+}
+
+@media (max-width: 530px) {
+    .website_policy {
+        width: 200px;
+    }
+
+    .website_policy a {
+        font-size: 17px;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -103,10 +238,43 @@
     .slider_item h3 {
         font-size: 100px;
     }
+
+    .fancy_border {
+        padding-left: 180px;
+        margin-top: -90px;
+    }
+
+    .website_policy {
+        width: 140px;
+    }
+
+    .website_policy a {
+        font-size: 15px;
+    }
+
 }
 
 @media (max-width: 400px) {
     .slider_item h3 {
         font-size: 80px;
     }
+}
+
+@media (max-width: 350px) {
+    .footer_navigation ul li a {
+        font-size: 15px;
+    }
+
+    .website_policy {
+        width: 120px;
+    }
+
+    .website_policy a {
+        font-size: 14px;
+    }
+
+    .fancy_border {
+        padding-left: 150px;
+    }
+
 }
