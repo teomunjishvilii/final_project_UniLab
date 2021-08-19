@@ -6,6 +6,7 @@ burgerButton.addEventListener ('click', function () {
     nav.classList.toggle('active');
 });
 
+
 // Slider
 $ (document).ready(function() {
     $('.slider').slick ({
@@ -16,6 +17,7 @@ $ (document).ready(function() {
         autoplaySpeed: 2000
     });
 });
+
 
 // Countdown
 (function () {

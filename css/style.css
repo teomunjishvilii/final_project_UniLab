@@ -390,11 +390,6 @@ footer {
 
 /* Countdown */
 #countdown {
-    /* background: linear-gradient(90deg, rgba(29,67,80,1) 0%, rgba(164,57,49,1) 100%); */
-    /* background: linear-gradient(90deg, rgba(233,100,67,1) 0%, rgba(144,78,149,1) 100%); */
-    /* background: linear-gradient(90deg, rgba(22,191,253,1) 0%, rgba(203,48,102,1) 100%); */
-    /* background: linear-gradient(90deg, rgba(29,67,80,1) 27%, rgba(164,57,49,1) 100%); */
-    /* background: linear-gradient(90deg, rgba(17,67,87,1) 19%, rgba(242,148,146,1) 100%); */
     background: linear-gradient(90deg, rgba(74,129,81,1) 22%, rgba(237,57,62,1) 100%);
 }
 
@@ -404,10 +399,11 @@ footer {
     padding: 20px 30px;
     text-transform: uppercase;
     color: #fff;
+    text-align: center;
 }
   
   #countdown ul li span {
     display: block;
     font-size: 72px;
-  }
+}
 
