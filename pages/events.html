@@ -20,8 +20,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <!-- Nino Mtavruli Family Link -->
+    <!-- Georgian Font Links -->
     <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/bpg-nino-mtavruli/css/bpg-nino-mtavruli.min.css">
+    <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/bpg-rioni-vera-light/css/bpg-rioni-vera-light.min.css">
 
     <!-- css links -->
     <link rel = "stylesheet" href = "../css/style.css">
@@ -41,15 +42,15 @@
             <nav class = "navigation" id = "nav">
                 <ul>
                     <li>
-                        <a href = "index.html"> <i class="fas fa-home"></i> </a>
+                        <a href = "../index.html"> <i class="fas fa-home"></i> </a>
                     </li>
 
                     <li>
-                        <a href = "#"> ჩვენ შესახებ </a>
+                        <a href = "#section4"> ჩვენ შესახებ </a>
                     </li>
 
                     <li>
-                        <a href = "#"> ღონისძიებები </a>
+                        <a href = "pages/events.html"> ღონისძიებები </a>
                     </li>
 
                     <li>
@@ -66,21 +67,23 @@
                 <i class="fas fa-bars"></i>
             </div>
         </div>
-    </header>   
+    </header>
 
-    <section class = "about_us_section1">
-        <div class = "about_us_text">
-            <div class = "about_us">
-                <h3> ჩვენ შესახებ </h3>
-                <p> საიტზე წარმოდგენილია სხვადასხვა მუსიკალური ივენთების ჩამონათვალი, რომელიც გაიმართება თბილისში, ზაფხულის პერიოდში. ასევე, შეგიძლიათ იხილოთ ივენთების არტისტები, ლოკაცია და თარიღები. ჩვენს საიტზევე შეგიძლიათ ბილეთების შეძენა. </p>
-                <p> საიტის მიზანია ერთ სივრცეში იყოს წარმოდგენილი ივენთები, რაც პოპულარიზაციას გაუწევს მუსიკალურ ღონისძიებებს. </p>
-            </div>
+    <section class = "events_section2">
+        <h3> შემდეგ ღონისძიებამდე დარჩენილია </h3>
+
+        <!-- Countdown -->
+        <div id="countdown">
+            <ul>
+              <li><span id="days"></span>დღე</li>
+              <li><span id="hours"></span>საათი</li>
+              <li><span id="minutes"></span>წუთი</li>
+              <li><span id="seconds"></span>წამი</li>
+            </ul>
         </div>
-    
-        <div class = "about_us_image">
-    
-        </div>
+
     </section>
+
 
     <!-- Footer -->
     <footer>
@@ -94,15 +97,15 @@
             <nav class = "footer_navigation footer_div">
                 <ul>
                     <li>
-                        <a href = "index.html"> მთავარი </a>
+                        <a href = "../index.html"> მთავარი </a>
                     </li>
 
                     <li>
-                        <a href = "#"> ჩვენ შესახებ </a>
+                        <a href = "#section4"> ჩვენ შესახებ </a>
                     </li>
 
                     <li>
-                        <a href = "#"> ღონისძიებები </a>
+                        <a href = "pages/events.html"> ღონისძიებები </a>
                     </li>
 
                     <li>
@@ -142,5 +145,12 @@
             </div>    
         </div>
     </footer>
+
+
+    <!-- jquery link -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- javascript link -->
+    <script src = "../js/script.js"></script>
 </body>
 </html>
