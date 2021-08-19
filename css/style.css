@@ -249,7 +249,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    line-height: 20px;
+    line-height: 30px;
 }
 
 #section4 h3 {
@@ -257,6 +257,11 @@ header {
     font-size: 40px;
     font-weight: bold;
     font-family: "BPG Nino Mtavruli", sans-serif;
+}
+
+.section4_p_top, .section4_p_bottom {
+    font-size: 20px;
+    font-family: "BPG Rioni Vera Light", sans-serif;
 }
 
 .section4_p_top {
