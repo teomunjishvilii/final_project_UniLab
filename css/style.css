@@ -514,3 +514,16 @@ footer {
     font-family: "BPG Nino Mtavruli", sans-serif;
 }
 
+.required::after {
+    content: "*";
+    color: #d13b53;
+}
+
+.input {
+    display: flex;
+}
+
+.input_div {
+    display: flex;
+    flex-direction: column;
+}
