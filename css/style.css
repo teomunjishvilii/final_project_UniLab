@@ -483,6 +483,34 @@ footer {
     position: absolute;
     top: 5px;
     left: 5px;
+}
 
+/* Tickets Page */
+.tickets_page {
+    background-image: url(../images/tickets-background-image.png);
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transparent_div {
+    width: 900px;
+    height: 600px;
+    background-color: #b6cac4;
+    opacity: 93%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.transparent_div h2 {
+    color: #d13b53;
+    font-size: 40px;
+    font-family: "BPG Nino Mtavruli", sans-serif;
 }
 
