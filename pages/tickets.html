@@ -73,180 +73,183 @@
         <div class = "transparent_div">
             <h2> რეგისტრაცია </h2>
 
-            <div class = "input">
-                <div class = "input_div"> 
-                    <label for = "firstname" class = "required"> სახელი </label>
-                    <input type = "text" name = "firstname" id = "firstname" required>    
-                </div>
-
-                <div class = "input_div">
-                    <label for = "lastname" class = "required"> გვარი </label>
-                    <input type = "text" name = "lastname" id = "lastname" required>    
-                </div>
-            </div>
-
-            <div class = "input">
-                <div class = "input_div"> 
-                    <label for = "email" class = "required"> ელ.ფოსტა </label>
-                    <input type = "email" name = "email" id = "email" required>    
-                </div>
-
-                <div class = "input_div">
-                    <label for = "lastname" class = "required"> დაბადების თარიღი </label>
-
-                    <!-- Date of birth -->
-                    <div class = "select_dates">
-                        <!-- Day -->
-                        <select id="day" name="day">
-                            <option disabled selected hidden> რიცხვი </option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
-                            <option>11</option>
-                            <option>12</option>
-                            <option>13</option>
-                            <option>14</option>
-                            <option>15</option>
-                            <option>16</option>
-                            <option>17</option>
-                            <option>18</option>
-                            <option>19</option>
-                            <option>20</option>
-                            <option>21</option>
-                            <option>22</option>
-                            <option>23</option>
-                            <option>24</option>
-                            <option>25</option>
-                            <option>26</option>
-                            <option>27</option>
-                            <option>28</option>
-                            <option>29</option>
-                            <option>30</option>
-                            <option>31</option>
-                        </select>
-
-                        <!-- Month -->
-                        <select id="month" name="month">
-                            <option disabled selected hidden> თვე </option>
-                            <option>იანვარი</option>
-                            <option>თებერვალი</option>
-                            <option>მარტი</option>
-                            <option>აპრილი</option>
-                            <option>მაისი</option>
-                            <option>ივნისი</option>
-                            <option>ივლისი</option>
-                            <option>აგვისტო</option>
-                            <option>სექტემბერი</option>
-                            <option>ოქტომბერი</option>
-                            <option>ნოემბერი</option>
-                            <option>დეკემბერი</option>
-                          </select>
-
-                          <!-- Year -->
-                          <select id="year" name="year">
-                            <option disabled selected hidden> წელი </option>
-                            <option>2005</option>
-                            <option>2004</option>
-                            <option>2003</option>
-                            <option>2002</option>
-                            <option>2001</option>
-                            <option>2000</option>
-                            <option>1999</option>
-                            <option>1998</option>
-                            <option>1997</option>
-                            <option>1996</option>
-                            <option>1995</option>
-                            <option>1994</option>
-                            <option>1993</option>
-                            <option>1992</option>
-                            <option>1991</option>
-                            <option>1990</option>
-                            <option>1989</option>
-                            <option>1988</option>
-                            <option>1987</option>
-                            <option>1986</option>
-                            <option>1985</option>
-                            <option>1984</option>
-                            <option>1983</option>
-                            <option>1982</option>
-                            <option>1981</option>
-                            <option>1980</option>
-                            <option>1979</option>
-                            <option>1978</option>
-                            <option>1977</option>
-                            <option>1976</option>
-                            <option>1975</option>
-                            <option>1974</option>
-                            <option>1973</option>
-                            <option>1972</option>
-                            <option>1971</option>
-                            <option>1970</option>
-                            <option>1969</option>
-                            <option>1968</option>
-                            <option>1967</option>
-                            <option>1966</option>
-                            <option>1965</option>
-                            <option>1964</option>
-                            <option>1963</option>
-                            <option>1962</option>
-                            <option>1961</option>
-                            <option> I'm older than 60 </option>
-                        </select>
+            <form action = "" method = "GET">
+                <div class = "input">
+                    <div class = "input_div"> 
+                        <label for = "firstname" class = "required"> სახელი </label>
+                        <input type = "text" name = "firstname" id = "firstname" placeholder = "თქვენი სახელი" required>    
+                    </div>
+    
+                    <div class = "input_div">
+                        <label for = "lastname" class = "required"> გვარი </label>
+                        <input type = "text" name = "lastname" id = "lastname" placeholder = "თქვენი გვარი" required>    
                     </div>
                 </div>
-            </div>
-
-            <div class = "input">
-                <div class = "input_div"> 
-                    <label for = "phone_number" class = "required"> ტელეფონის ნომერი </label>
-                    <input type = "number" name = "phone_number" id = "phone_number" required>    
+    
+                <div class = "input">
+                    <div class = "input_div"> 
+                        <label for = "email" class = "required"> ელ.ფოსტა </label>
+                        <input type = "email" name = "email" id = "email" placeholder = "თქვენი ელ.ფოსტა" required>    
+                    </div>
+    
+                    <div class = "input_div">
+                        <label for = "lastname" class = "required"> დაბადების თარიღი </label>
+    
+                        <!-- Date of birth -->
+                        <div class = "select_dates">
+                            <!-- Day -->
+                            <select id="day" name="day">
+                                <option disabled selected hidden> რიცხვი </option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                            </select>
+    
+                            <!-- Month -->
+                            <select id="month" name="month">
+                                <option disabled selected hidden> თვე </option>
+                                <option>იანვარი</option>
+                                <option>თებერვალი</option>
+                                <option>მარტი</option>
+                                <option>აპრილი</option>
+                                <option>მაისი</option>
+                                <option>ივნისი</option>
+                                <option>ივლისი</option>
+                                <option>აგვისტო</option>
+                                <option>სექტემბერი</option>
+                                <option>ოქტომბერი</option>
+                                <option>ნოემბერი</option>
+                                <option>დეკემბერი</option>
+                              </select>
+    
+                              <!-- Year -->
+                              <select id="year" name="year">
+                                <option disabled selected hidden> წელი </option>
+                                <option>2005</option>
+                                <option>2004</option>
+                                <option>2003</option>
+                                <option>2002</option>
+                                <option>2001</option>
+                                <option>2000</option>
+                                <option>1999</option>
+                                <option>1998</option>
+                                <option>1997</option>
+                                <option>1996</option>
+                                <option>1995</option>
+                                <option>1994</option>
+                                <option>1993</option>
+                                <option>1992</option>
+                                <option>1991</option>
+                                <option>1990</option>
+                                <option>1989</option>
+                                <option>1988</option>
+                                <option>1987</option>
+                                <option>1986</option>
+                                <option>1985</option>
+                                <option>1984</option>
+                                <option>1983</option>
+                                <option>1982</option>
+                                <option>1981</option>
+                                <option>1980</option>
+                                <option>1979</option>
+                                <option>1978</option>
+                                <option>1977</option>
+                                <option>1976</option>
+                                <option>1975</option>
+                                <option>1974</option>
+                                <option>1973</option>
+                                <option>1972</option>
+                                <option>1971</option>
+                                <option>1970</option>
+                                <option>1969</option>
+                                <option>1968</option>
+                                <option>1967</option>
+                                <option>1966</option>
+                                <option>1965</option>
+                                <option>1964</option>
+                                <option>1963</option>
+                                <option>1962</option>
+                                <option>1961</option>
+                                <option> I'm older than 60 </option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
-
+    
+                <div class = "input">
+                    <div class = "input_div"> 
+                        <label for = "phone_number" class = "required"> ტელეფონი </label>
+                        <input type = "number" name = "phone_number" id = "phone_number" placeholder = "თქვენი ტელეფონის ნომერი" required>    
+                    </div>
+    
+                    <div class = "input_div">
+                        <label for = "personal_number" class = "required"> პირადი ნომერი </label>
+                        <input type = "number" name = "personal_number" id = "personal_number" placeholder = "თქვენი პ/ნ" required>    
+                    </div>
+                </div>
+    
+                <div class = "input">
+                    <div class = "input_div">
+                        <label for = "event_list" class = "required"> სასურველი ღონისძიება </label>
+                        <select id="event_list" name="event_list">
+                            <option disabled selected hidden> აირჩიეთ ღონისძიება </option>
+                            <option>ივენთ 1</option>
+                            <option>ივენთ 2</option>
+                            <option>ივენთ 3</option>
+                            <option>ივენთ 4</option>
+                            <option>ივენთ 5</option>
+                        </select>    
+                    </div>
+    
+                    <div class = "input_div">
+                        <label for = "ticket_number" class = "required"> ბილეთების რაოდენობა </label>
+                        <input type = "number" name = "ticket_number" id = "ticket_number"  placeholder = "ჩაწერეთ რაოდენობა" required>    
+                    </div>
+                </div>
+    
                 <div class = "input_div">
-                    <label for = "personal_number" class = "required"> პირადი ნომერი </label>
-                    <input type = "number" name = "personal_number" id = "personal_number" required>    
+                    <label for="comment"> დამატებითი კომენტარი </label>
+                    <textarea id="comment" name="comment"  placeholder ="თქვენი კომენტარი..."></textarea>
                 </div>
-            </div>
-
-            <div class = "input">
-                <div class = "input_div">
-                    <label for = "event_list" class = "required"> მონიშნეთ სასურველი ღონისძიება </label>
-                    <select id="month" name="month">
-                        <option disabled selected hidden> ღონისძიება </option>
-                        <option>ივენთ 1</option>
-                        <option>ივენთ 2</option>
-                        <option>ივენთ 3</option>
-                        <option>ივენთ 4</option>
-                        <option>ივენთ 5</option>
-                    </select>    
+    
+                <div class = "checkbox">
+                    <input type="checkbox" id="terms" name="terms" value="terms">
+                    <label for="terms"> I agree to the <a href = "#"> Terms </a> and <a href = "#"> Privacy Policy</a>. </label>
                 </div>
-
-                <div class = "input_div">
-                    <label for = "ticket_number" class = "required"> ბილეთების რაოდენობა </label>
-                    <input type = "number" name = "ticket_number" id = "ticket_number" required>    
+    
+                <div class = "registration_button">
+                    <button type = "submit"> რეგისტრაცია </button>
                 </div>
-            </div>
-
-            <div class = "input_div">
-                <label for="comment"> დამატებითი კომენტარი </label>
-                <textarea id="comment" name="comment" rows="4" cols="50" placeholder ="თქვენი კომენტარი..."></textarea>
-            </div>
-
-            <div class = "checkbox">
-                <input type="checkbox" id="terms" name="terms" value="terms">
-                <label for="terms"> I agree to the <a href = "#"> Terms </a> and <a href = "#"> Privacy Policy</a>. </label>
-            </div>
-
-            <div>
-                <button type = "submit"> რეგისტრაცია </button>
-            </div>
+    
+            </form>
             
         </div>
     </section>

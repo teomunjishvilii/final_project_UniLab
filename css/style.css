@@ -490,7 +490,6 @@ footer {
     background-image: url(../images/tickets-background-image.png);
     background-position: center center;
     background-size: cover;
-    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -498,20 +497,25 @@ footer {
 
 .transparent_div {
     width: 900px;
-    height: 600px;
     background-color: #b6cac4;
-    opacity: 93%;
+    opacity: 90%;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .transparent_div h2 {
     color: #d13b53;
     font-size: 40px;
     font-family: "BPG Nino Mtavruli", sans-serif;
+}
+
+form {
+    margin-top: 40px;
 }
 
 .required::after {
@@ -528,6 +532,67 @@ footer {
     flex-direction: column;
 }
 
+.input_div input, #event_list {
+    width: 220px;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    border: 1px solid #545b68;
+    border-radius: 5px;
+}
+
+.input_div input {
+    padding: 8px;
+}
+
+.input_div label {
+    margin-bottom: 10px;
+    color: #31353d;
+    font-size: 18px;
+    font-family: "BPG Rioni Vera Light", sans-serif;
+    font-weight: bold;
+}
+
+#day, #month, #year {
+    width: 70px;
+    height: 30px;
+    border: 1px solid #545b68;
+    border-radius: 5px;
+    color: #7a7d7c;
+}
+
+#event_list {
+    color: #7a7d7c;
+}
+
 textarea {
     resize: none;
+    width: 490px;
+    height: 100px;
+    border: 1px solid #545b68;
+    border-radius: 5px;
 }
+
+.select_dates {
+    width: 220px;
+}
+
+.checkbox {
+    margin-top: 30px;
+}
+
+.registration_button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.registration_button button {
+    width: 150px;
+    height: 35px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #d13b53;
+    border: none;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+}
+
