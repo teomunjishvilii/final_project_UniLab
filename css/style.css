@@ -634,24 +634,26 @@ textarea:focus {
 /* Contact Page */
 .contact {
     height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
 }
 
 .contact_form {
     width: 900px;
     height: 400px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .message {
     width: 60%;
     height: 100%;
-    background-color: red;
+    background-color: #fff;
 }
 
 .contact_info {
     width: 40%;
     height: 100%;
-    background-color: blue;
+    background: linear-gradient(to right, #b92b27, #1565c0);
 }
