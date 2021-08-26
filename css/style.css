@@ -630,3 +630,28 @@ textarea:focus {
     color: #d13b53;
     background-color: #C0C0C0;
 }
+
+/* Contact Page */
+.contact {
+    height: 600px;
+}
+
+.contact_form {
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    width: 60%;
+    height: 100%;
+    background-color: red;
+}
+
+.contact_info {
+    width: 40%;
+    height: 100%;
+    background-color: blue;
+}
