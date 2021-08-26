@@ -723,3 +723,13 @@ textarea:focus {
     margin-top: 30px;
     border-radius: 3px;
 }
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_details {
+    display: flex;
+    flex-direction: column;
+}
