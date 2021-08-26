@@ -506,7 +506,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    padding: 70px;
     margin-top: 150px;
     margin-bottom: 150px;
     box-shadow: 7px 7px 15px #48504F;
@@ -615,8 +615,8 @@ textarea:focus {
 }
 
 .registration_button button {
-    width: 150px;
-    height: 35px;
+    width: 170px;
+    height: 45px;
     color: #fff;
     font-size: 16px;
     background-color: #d13b53;
