@@ -544,6 +544,7 @@ form {
     border: 1px solid #545b68;
     border-radius: 5px;
     background-color: #343D3C;
+    color: #E8E8E8;
 }
 
 .input_div input:focus, #event_list:focus, #day:focus, #month:focus, #year:focus {
@@ -583,6 +584,8 @@ textarea {
     border: 1px solid #545b68;
     border-radius: 5px;
     background-color: #343D3C;
+    color: #E8E8E8;
+    padding: 8px;
 }
 
 textarea:focus {
