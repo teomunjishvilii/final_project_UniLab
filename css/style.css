@@ -387,11 +387,13 @@ footer {
     letter-spacing: 1px;
     margin-top: 130px;
     margin-bottom: 50px;
+    text-shadow: 1px 1px 2px black, 0 0 25px #db332e, 0 0 5px #50b05c;
 }
 
 /* Countdown */
 #countdown {
     background: linear-gradient(90deg, rgba(74,129,81,1) 22%, rgba(237,57,62,1) 100%);
+    border-radius: 3px;
 }
 
 #countdown ul li {
@@ -436,6 +438,7 @@ footer {
     width: 280px;
     height: 200px;
     border-radius: 5px;
+    box-shadow: 5px 5px 15px grey;
     transition: all 0.2s linear;
 }
 
@@ -497,7 +500,7 @@ footer {
 
 .transparent_div {
     width: 900px;
-    background-color: #b6cac4;
+    background-color: #343D3C;
     opacity: 90%;
     border-radius: 5px;
     display: flex;
@@ -506,6 +509,7 @@ footer {
     padding: 40px;
     margin-top: 150px;
     margin-bottom: 150px;
+    box-shadow: 7px 7px 15px #48504F;
 }
 
 .transparent_div h2 {
@@ -539,6 +543,12 @@ form {
     margin-right: 50px;
     border: 1px solid #545b68;
     border-radius: 5px;
+    background-color: #343D3C;
+}
+
+.input_div input:focus, #event_list:focus, #day:focus, #month:focus, #year:focus {
+    outline: none;
+    border-color: #C0C0C0;
 }
 
 .input_div input {
@@ -547,7 +557,7 @@ form {
 
 .input_div label {
     margin-bottom: 10px;
-    color: #31353d;
+    color: 	#C0C0C0;
     font-size: 18px;
     font-family: "BPG Rioni Vera Light", sans-serif;
     font-weight: bold;
@@ -559,6 +569,7 @@ form {
     border: 1px solid #545b68;
     border-radius: 5px;
     color: #7a7d7c;
+    background-color: #343D3C;
 }
 
 #event_list {
@@ -571,6 +582,12 @@ textarea {
     height: 100px;
     border: 1px solid #545b68;
     border-radius: 5px;
+    background-color: #343D3C;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #C0C0C0;
 }
 
 .select_dates {
@@ -579,6 +596,14 @@ textarea {
 
 .checkbox {
     margin-top: 30px;
+}
+
+.checkbox label {
+    color: #C0C0C0;
+}
+
+.checkbox label a {
+    color: #d13b53;
 }
 
 .registration_button {
@@ -594,5 +619,11 @@ textarea {
     background-color: #d13b53;
     border: none;
     font-family: "BPG Nino Mtavruli", sans-serif;
+    font-weight: bold;
+    transition: all 0.2s linear;
 }
 
+.registration_button button:hover {
+    color: #d13b53;
+    background-color: #C0C0C0;
+}
