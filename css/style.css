@@ -230,16 +230,29 @@ header {
     border: 5px dotted #474747;
     padding: 15px 20px;
     font-family: "BPG Nino Mtavruli", sans-serif;
+    position: relative;
+    overflow: hidden;
 }
 
-.more_blocks a:hover {
+/* .more_blocks a:hover {
     color: #ff3a51;
     border: 5px dotted #ff3a51;
     border-radius: 10px;
     font-size: 22px;
     padding: 17px 22px;
     transition: all 0.2s linear;
+} */
+
+span {
+    background: yellow;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
 }
+
 
 /* Section 4 - About Us */
 #section4 {
@@ -306,17 +319,31 @@ footer {
     font-size: 27px;
 }
 
+.footer_navigation ul li a{
+    position: relative;
+}
+
+.footer_navigation ul li a::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #d13b53;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.footer_navigation ul li a:hover::after {
+    width: 100%;
+}
+
 .footer_navigation ul li a {
     color: #545b68;
     margin: 20px;
     font-size: 18px;
     font-family: "BPG Nino Mtavruli", sans-serif;
     transition: all 0.2s linear;
-}
-
-.footer_navigation ul li a:hover {
-    color: #d13b53;
-    font-size: 19px;
 }
 
 .soc_media {
