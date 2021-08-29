@@ -493,10 +493,36 @@ footer {
     transition: all 0.2s linear;
 }
 
-.events_block img:hover {
-    width: 290px;
-    height: 210px;
+.card{
+    background-color: pink;
+    text-align: center;
+    width: 280px;
+    
+}
+
+.card_infoicon {
+    position:absolute;
+    top:5px;
+    left: 240px;
+    font-size: 20px;
+    color:#000000;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
     border-radius: 10px;
+}
+
+.fa-info {
+    margin-top: 3px;
+}
+
+.card_title {
+    padding: 20px;
+}
+
+.card_description {
+    padding: 10px;
 }
 
 .events_block h5 {
