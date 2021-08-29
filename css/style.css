@@ -227,30 +227,32 @@ header {
     color: #474747;
     font-weight: bold;
     font-size: 20px;
-    border: 5px dotted #474747;
+    border: 2px solid #474747;
     padding: 15px 20px;
     font-family: "BPG Nino Mtavruli", sans-serif;
     position: relative;
-    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
 }
 
-/* .more_blocks a:hover {
-    color: #ff3a51;
-    border: 5px dotted #ff3a51;
-    border-radius: 10px;
-    font-size: 22px;
-    padding: 17px 22px;
-    transition: all 0.2s linear;
-} */
-
 span {
-    background: yellow;
+    background: #ff3a51;
     height: 100%;
-    width: 100%;
+    width: 0;
     position: absolute;
     left: 0;
     bottom: 0;
+    transition: 0.5s;
     z-index: -1;
+}
+
+.more_blocks a:hover span {
+    width: 100%;
+}
+
+.more_blocks a:hover {
+    border: none;
+    color: #fff;
 }
 
 
