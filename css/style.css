@@ -235,11 +235,11 @@ header {
     transition: 0.5s;
 }
 
-span {
+.more_blocks span {
     background: #ff3a51;
     height: 100%;
-    width: 0;
     position: absolute;
+    width: 0;
     left: 0;
     bottom: 0;
     transition: 0.5s;
@@ -493,12 +493,6 @@ footer {
     transition: all 0.2s linear;
 }
 
-.card{
-    background-color: pink;
-    text-align: center;
-    width: 280px;
-}
-
 .card_infoicon {
     position:absolute;
     top:5px;
@@ -518,13 +512,19 @@ footer {
 
 .card_title {
     padding: 20px;
+    font-weight: bold;
 }
 
 .hidden_div {
+    background-color: yellow;
+    border-radius: 5px;
+    width: 280px;
+    margin-top: 10px;
+    text-align: center;
     display: none;
 }
 
-.card_infoicon:hover.hidden_div {
+.hidden_div.info_active {
     display: block;
 }
 
