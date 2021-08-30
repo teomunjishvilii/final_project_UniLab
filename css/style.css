@@ -497,7 +497,6 @@ footer {
     background-color: pink;
     text-align: center;
     width: 280px;
-    
 }
 
 .card_infoicon {
@@ -519,6 +518,14 @@ footer {
 
 .card_title {
     padding: 20px;
+}
+
+.hidden_div {
+    display: none;
+}
+
+.card_infoicon:hover.hidden_div {
+    display: block;
 }
 
 .card_description {
