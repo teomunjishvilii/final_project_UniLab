@@ -42,14 +42,19 @@ $ (document).ready(function() {
 }());
 
 // Show/hide div
-const page = window.open('events.html');
 
-let infoIcon = page.document.getElementsByClassName('card_infoicon');
-let srcElement = page.document.getElementsByClassName('hidden_div');
-
-infoIcon.addEventListener('click', function () {
-    srcElement.classList.toggle('info_active');
-})
+function showHideDiv(ele) {
+    var srcElement = document.getElementById(ele);
+    if (srcElement != null) {
+        if (srcElement.style.display == "block") {
+            srcElement.style.display = 'none';
+        }
+        else {
+            srcElement.style.display = 'block';
+        }
+        return false;
+    }
+}
 
 
 

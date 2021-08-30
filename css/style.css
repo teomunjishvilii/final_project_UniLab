@@ -493,43 +493,34 @@ footer {
     transition: all 0.2s linear;
 }
 
-.card_infoicon {
-    position:absolute;
-    top:5px;
-    left: 240px;
-    font-size: 20px;
-    color:#000000;
-    background-color: #fff;
-    width: 30px;
+.info_button {
+    position: absolute;
+    top: 5px;
+    left: 185px;
     height: 30px;
-    text-align: center;
+    border: none;
+    background-color: #fff;
     border-radius: 10px;
 }
 
-.fa-info {
-    margin-top: 3px;
-}
-
-.card_title {
-    padding: 20px;
-    font-weight: bold;
-}
-
-.hidden_div {
-    background-color: yellow;
-    border-radius: 5px;
-    width: 280px;
-    margin-top: 10px;
-    text-align: center;
+#divMsg {
+    background-color: #F5F9FE;
+    color: #31353d;
+    width: 280px; 
     display: none;
+    padding: 15px;
+    padding-left: 0px;
+    margin-top: 10px;
 }
 
-.hidden_div.info_active {
-    display: block;
+#divMsg h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.card_description {
-    padding: 10px;
+#divMsg p {
+    margin: 10px;
 }
 
 .events_block h5 {
