@@ -503,7 +503,7 @@ footer {
     border-radius: 10px;
 }
 
-#divMsg {
+#divMsg, #divMsg1, #divMsg2, #divMsg3, #divMsg4, #divMsg5 {
     background-color: #F5F9FE;
     color: #31353d;
     width: 305px; 
@@ -517,13 +517,13 @@ footer {
     margin-top: 10px;
 }
 
-#divMsg h3 {
+#divMsg h3, #divMsg1 h3, #divMsg2 h3, #divMsg3 h3, #divMsg4 h3, #divMsg5 h3 {
     margin-bottom: 20px;
     font-weight: bold;
     font-size: 20px;
 }
 
-#divMsg p {
+#divMsg p, #divMsg1 p, #divMsg2 p, #divMsg3 p, #divMsg4 p, #divMsg5 p {
     margin: 10px;
 }
 
