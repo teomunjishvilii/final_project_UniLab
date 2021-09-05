@@ -827,6 +827,24 @@ textarea:focus {
     background: linear-gradient(to right, #1D4350, #f83600);
     margin-top: 30px;
     border-radius: 3px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.contact_button span {
+    background: linear-gradient(to right,#f83600, #1D4350);
+    height: 100%;
+    position: absolute;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.contact_button:hover span {
+    width: 100%;
 }
 
 .contact_details {
