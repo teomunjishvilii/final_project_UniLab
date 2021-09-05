@@ -550,11 +550,17 @@ footer {
     padding-top: 3px;
     font-family: "BPG Rioni Vera Light", sans-serif;
     font-size: 18px;
+    background: linear-gradient(90deg, rgba(74,129,81,1) 22%, rgba(237,57,62,1) 100%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
     color: #31353d;
+    font-weight: bold;
 }
 
 .events_block a:hover {
-    font-weight: bold;
+    background-position: -100%;
 }
 
 .event_date_p {
