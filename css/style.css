@@ -505,13 +505,22 @@ footer {
 }
 
 .info_button {
+    color: #31353d;
     position: absolute;
     top: 10px;
     left: 215px;
     height: 30px;
     border: none;
+    outline: none;
     background-color: #fff;
     border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s linear;
+}
+
+.info_button:hover {
+    border: 2px solid #31353d;
 }
 
 #divMsg, #divMsg1, #divMsg2, #divMsg3, #divMsg4, #divMsg5 {
@@ -520,10 +529,6 @@ footer {
     width: 305px; 
     display: none;
     padding: 15px;
-    /* position: absolute;
-    top: 200px;
-    z-index: 2; */
-    /* border-radius: 0px 0px 5px 5px; */
     padding-left: 0px;
     margin-top: 10px;
 }
@@ -538,6 +543,10 @@ footer {
     margin: 10px;
 }
 
+#divMsg a, #divMsg1 a, #divMsg2 a, #divMsg3 a, #divMsg4 a, #divMsg5 a {
+    border-top: 2px solid #d13b53;
+}
+
 .events_block h5 {
     margin-top: 15px;
     font-family: 'Roboto', sans-serif;
@@ -547,20 +556,20 @@ footer {
 }
 
 .events_block a {
+    background-color: #31353d;
     padding-top: 3px;
     font-family: "BPG Rioni Vera Light", sans-serif;
     font-size: 18px;
-    background: linear-gradient(90deg, rgba(74,129,81,1) 22%, rgba(237,57,62,1) 100%);
-    background-size: 200%;
-    -webkit-background-clip: text;
+    font-weight: bold; 
+    background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba(255, 255, 255, 0.5)5%, rgba(255, 255, 255, 0.5)10%, transparent 10%, transparent 100%);
+    background-size: 200%, 100%;
     -webkit-text-fill-color: transparent;
-    transition: 0.5s ease-out;
-    color: #31353d;
-    font-weight: bold;
+    -webkit-background-clip: text;
+    transition: 1.2s;
 }
 
 .events_block a:hover {
-    background-position: -100%;
+    background-position: -120% 0; 
 }
 
 .event_date_p {
