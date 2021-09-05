@@ -775,8 +775,8 @@ textarea:focus {
     background: linear-gradient(to right, #1D4350, #f83600);
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 35px;
-    padding-left: 40px;
     color: #fff;
 }
 
@@ -871,6 +871,10 @@ textarea:focus {
     margin-top: 40px;
 }
 
+.contact_soc_media {
+    position: relative;
+}
+
 .contact_soc_media:before {
     position: absolute;
     content: '';
@@ -881,16 +885,40 @@ textarea:focus {
     transition: 0.7s;
 }
 
+.contact_soc_media:hover:before {
+    height: 100%;
+}
+
+.contact_soc_media:nth-child(1):before {
+    border-bottom: 4px solid;
+    color: #4267B2;
+    content: '\f39e';
+}
+
+.contact_soc_media:nth-child(2):before {
+    border-bottom: 4px solid;
+    color: red;
+    content: '\f39e';
+}
+
+.contact_soc_media:nth-child(3):before {
+    border-bottom: 4px solid;
+    color: yellow;
+    content: '\f39e';
+}
+
+.contact_soc_media:nth-child(4):before {
+    border-bottom: 4px solid;
+    color: green;
+    content: '\f39e';
+}
+
+
+/* .contact_soc_media:nth-child(4) {
+    margin-top: -7px;
+} */
 .contact_soc_media a {
     margin: 15px;
     font-size: 18px;
     color: #fff;
-}
-
-.facebook:hover {
-    color: #4267B2;
-}
-
-.youtube {
-    margin-top: -5px;
 }
