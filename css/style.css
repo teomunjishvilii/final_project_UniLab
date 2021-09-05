@@ -827,7 +827,7 @@ textarea:focus {
     background: linear-gradient(to right, #1D4350, #f83600);
     margin-top: 30px;
     border-radius: 3px;
-    transition: all 5s linear;
+    transition: all 2s linear;
 }
 
 .contact_button button:hover {
@@ -868,10 +868,29 @@ textarea:focus {
 .soc_media_icons {
     display: flex;
     justify-content: left;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
-.contact_soc_media {
+.contact_soc_media:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 0;
+    overflow: hidden;
+    transition: 0.7s;
+}
+
+.contact_soc_media a {
     margin: 15px;
-    font-size: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.facebook:hover {
+    color: #4267B2;
+}
+
+.youtube {
+    margin-top: -5px;
 }
