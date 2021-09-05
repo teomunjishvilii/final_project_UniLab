@@ -42,7 +42,6 @@ $ (document).ready(function() {
 }());
 
 // Show/hide div
-
 function showHideDiv(ele) {
     var srcElement = document.getElementById(ele);
     if (srcElement != null) {
@@ -55,7 +54,4 @@ function showHideDiv(ele) {
         return false;
     }
 }
-
-
-
 
