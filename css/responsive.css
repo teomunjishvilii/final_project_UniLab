@@ -109,6 +109,7 @@
 
     .transparent_div {
         width: 680px;
+        align-items: unset;
     }
 
     .footer_info {
@@ -219,8 +220,6 @@
         margin-bottom: 50px;
     }
 
-
-    
     /* Clicking on the burger button */
     .navigation.active {
         display: block;
@@ -260,6 +259,20 @@
 @media (max-width: 640px) {
     .events_section3 {
         justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .input_div input, #event_list {
+        width: 200px;
+    }
+
+    #day, #month, #year {
+        width: 63px;
+    }
+
+    textarea {
+        width: 450px;
     }
 }
 
