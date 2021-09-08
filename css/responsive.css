@@ -45,6 +45,10 @@
         width: 850px;
     }
 
+    .contact_form {
+        width: 850px;
+    }
+
     .footer_navigation ul li a {
         font-size: 11px;
         margin: 7px;
@@ -109,6 +113,37 @@
 
     .transparent_div {
         width: 680px;
+    }
+
+    .contact_form {
+        width: 680px;
+    }
+
+    .contact_input input {
+        width: 150px;
+    }
+
+    #subject, #contact_email, #contact_message {
+        width: 330px;
+    }
+
+    .contact_button button {
+        width: 110px;
+        height: 35px;
+    }
+
+    .contact_icon {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .contact_details p {
+        font-size: 15px;
+    }
+
+    .soc_media_icons a {
+        margin: 5px;
     }
 
     .footer_info {
@@ -249,6 +284,12 @@
     }
 }
 
+@media (max-width: 660px) {
+    .message {
+        padding-left: 20px;
+    }
+}
+
 @media (max-width: 650px) {
     .section4_p_top, .section4_p_bottom  {
         max-width: 500px;
@@ -272,6 +313,23 @@
 
     textarea {
         width: 450px;
+    }
+
+    .contact_input input {
+        width: 110px;
+    }
+
+    #subject, #contact_email, #contact_message {
+        width: 250px;
+    }
+
+    .contact_button button {
+        width: 100px;
+        height: 35px;
+    }
+
+    .message {
+        padding-left: 30px;
     }
 }
 
