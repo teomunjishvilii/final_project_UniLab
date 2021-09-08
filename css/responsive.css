@@ -70,6 +70,10 @@
         max-width: 680px;
     }
 
+    .footer_logo img {
+        padding-top: 30px;
+    }
+
     .block {
         width: 160px;
     }
@@ -202,6 +206,11 @@
         display: block;
     }
 
+    .logo img {
+        width: 400px;
+        padding-bottom: 40px;
+    }
+
     .blocks {
         height: 2600px;
     }
@@ -303,6 +312,10 @@
 }
 
 @media (max-width: 600px) {
+    .logo img {
+        margin-left: -80px;
+    }
+
     .input_div input, #event_list {
         width: 200px;
     }
@@ -387,6 +400,17 @@
 
     .website_policy {
         width: 250px;
+    }
+}
+
+@media (max-width: 550px) {
+    .logo img {
+        width: 300px;
+    }
+
+    .burger_button {
+        top: 80px;
+        right: 30px;
     }
 }
 
@@ -502,6 +526,10 @@
 }
 
 @media (max-width: 400px) {
+    .logo img {
+        width: 220px;
+    }
+
     .slider_item h3 {
         font-size: 80px;
     }
