@@ -329,13 +329,60 @@
     }
 
     .message {
-        padding-left: 30px;
+        padding-left: 50px;
     }
 }
 
 @media (max-width: 590px) {
     .slider_item h3 {
         font-size: 120px;
+    }
+
+    .contact {
+        height: 100%;
+    }
+
+    .contact_form {
+        flex-direction: column;
+    }
+
+    .contact_form {
+        height: 100%;
+        box-shadow: none;
+    }
+
+    .message {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .message form {
+        text-align: center;
+    }
+
+    .contact_info {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .contact_button {
+        text-align: center;
+    }
+
+    .contact_input_div {
+        justify-content: space-between;
+    }
+
+    .contact_input input {
+        margin-right: 0px;
+    }
+
+    .soc_media_icons {
+        margin-bottom: 30px;
     }
 
     .website_policy {
@@ -457,6 +504,10 @@
 @media (max-width: 400px) {
     .slider_item h3 {
         font-size: 80px;
+    }
+
+    .message {
+        margin-left: -20px;
     }
 }
 

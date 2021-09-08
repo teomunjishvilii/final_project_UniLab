@@ -784,11 +784,6 @@ textarea:focus {
     display: flex;
 }
 
-.contact_input {
-    display: flex;
-    flex-direction: column;
-}
-
 .contact_input input {
     width: 170px;
     height: 40px;
