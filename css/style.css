@@ -606,7 +606,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 70px;
+    padding: 90px;
     margin-top: 150px;
     margin-bottom: 150px;
     box-shadow: 7px 7px 15px #48504F;
@@ -629,6 +629,7 @@ form {
 
 .input {
     display: flex;
+    justify-content: space-between;
 }
 
 .input_div {
@@ -640,7 +641,6 @@ form {
     width: 220px;
     height: 30px;
     margin-bottom: 30px;
-    margin-right: 50px;
     border: 1px solid #545b68;
     border-radius: 5px;
     background-color: #343D3C;
@@ -693,9 +693,9 @@ textarea:focus {
     border-color: #C0C0C0;
 }
 
-.select_dates {
+/* .select_dates {
     width: 220px;
-}
+} */
 
 .checkbox {
     margin-top: 30px;

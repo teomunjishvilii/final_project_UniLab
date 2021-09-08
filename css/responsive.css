@@ -109,7 +109,6 @@
 
     .transparent_div {
         width: 680px;
-        align-items: unset;
     }
 
     .footer_info {
@@ -331,6 +330,31 @@
     .blocks_section {
         justify-content: center;
     }
+
+    .input_div input, #event_list {
+        width: 380px;
+    }
+
+    #day, #month, #year {
+        width: 124px;
+    }
+
+    textarea {
+        width: 380px;
+    }
+
+    .input {
+        flex-direction: column;
+    }
+
+    .input_div label {
+        font-size: 15px;
+    }
+
+    .phone_number_div {
+        margin-top: 25px;
+    }
+
 }
 
 @media (max-width: 490px) {
@@ -358,9 +382,37 @@
     }
 }
 
+@media (max-width: 420px) {
+    .input_div input, #event_list {
+        width: 350px;
+    }
+
+    #day, #month, #year {
+        width: 112px;
+    }
+
+    textarea {
+        width: 350px;
+    }
+}
+
 @media (max-width: 400px) {
     .slider_item h3 {
         font-size: 80px;
+    }
+}
+
+@media (max-width: 375px) {
+    .input_div input, #event_list {
+        width: 300px;
+    }
+
+    #day, #month, #year {
+        width: 96px;
+    }
+
+    textarea {
+        width: 300px;
     }
 }
 
