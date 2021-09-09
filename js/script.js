@@ -26,7 +26,7 @@ $ (document).ready(function() {
           hour = minute * 60,
           day = hour * 24;
   
-    let event = "Sep 10, 2021 23:00:00",
+    let event = "Sep 30, 2021 23:00:00",
         countDown = new Date(event).getTime(),
         x = setInterval(function() {    
   
