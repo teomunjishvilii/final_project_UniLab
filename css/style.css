@@ -545,7 +545,7 @@ footer {
     margin-bottom: 20px;
 }
 
-.tkt_info {
+.tkt_info, .Biniak_p, .air_date {
     text-decoration: underline;
 }
 
@@ -598,12 +598,25 @@ footer {
     font-weight: bold;
 }
 
-.Kalkbrenner h5 {
+#divMsg3 ul {
+    list-style-type:square
+}
+
+#divMsg3 p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Kalkbrenner h5, .Biniak h5 {
     margin-bottom: 25px;
 }
 
 .Kalkbrenner_p {
     margin-top: -15px;
+}
+
+.air_tkt {
+    padding-bottom: 15px;
 }
 
 /* Tickets Page */
