@@ -20,7 +20,7 @@
     }
 
     .more_blocks {
-        padding-top: 530px;
+        padding-top: 650px;
     }
 
     .footer_info {
@@ -286,6 +286,10 @@
         width: 100%;
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+
+    #section4 {
+        padding-top: 400px;
     }
 
     /* Clicking on the burger button */
