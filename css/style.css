@@ -957,9 +957,6 @@ textarea:focus {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left;
     padding-top: 35px;
     padding-left: 40px;
 }
