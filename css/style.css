@@ -598,8 +598,12 @@ footer {
     font-weight: bold;
 }
 
-#divMsg3 ul {
+#divMsg3 ul, #divMsg4 ul {
     list-style-type:square
+}
+
+#divMsg4 nav, #divMsg5 nav {
+    margin-bottom: 20px;
 }
 
 #divMsg3 p {
