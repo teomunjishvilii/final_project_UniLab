@@ -530,10 +530,8 @@ footer {
 #divMsg, #divMsg1, #divMsg2, #divMsg3, #divMsg4, #divMsg5 {
     background-color: #F5F9FE;
     color: #31353d;
-    width: 305px; 
+    width: 380px; 
     display: none;
-    padding: 15px;
-    padding-left: 0px;
     margin-top: 10px;
 }
 
@@ -544,7 +542,11 @@ footer {
 }
 
 #divMsg p, #divMsg1 p, #divMsg2 p, #divMsg3 p, #divMsg4 p, #divMsg5 p {
-    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.tkt_info {
+    text-decoration: underline;
 }
 
 #divMsg a, #divMsg1 a, #divMsg2 a, #divMsg3 a, #divMsg4 a, #divMsg5 a {
@@ -553,10 +555,11 @@ footer {
 
 .events_block h5 {
     margin-top: 15px;
+    margin-bottom: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    margin-bottom: 7px;
     transition: all 0.2s linear;
+    width: 350px;
 }
 
 .events_block a {
@@ -590,6 +593,17 @@ footer {
     position: absolute;
     top: 10px;
     left: 5px;
+    padding-top: 7px;
+    font-family: "BPG Rioni Vera Light", sans-serif;
+    font-weight: bold;
+}
+
+.Kalkbrenner h5 {
+    margin-bottom: 25px;
+}
+
+.Kalkbrenner_p {
+    margin-top: -15px;
 }
 
 /* Tickets Page */
